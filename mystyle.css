@@ -1,3 +1,17 @@
+.content {
+    border-color:black;
+    border-width: 3px;
+    height:300px;
+    width:800px;
+    padding:50px;
+    position:absolute;
+    top:50px;
+}
+
 .pink {
     background-color:pink;
+}
+
+.blue {
+    background-color: blue;;
 }
