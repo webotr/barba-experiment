@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page2</title>
-</head>
-<body style="background-color: pink;">
-<h1>This is page 2</h1>
-</body>
-</html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page 2</title>
+  </head>
+  <body style="background-color: pink;">
+
+    <!-- define the wrapper and the container -->
+    <div data-barba="wrapper">
+      <div data-barba="container" data-barba-namespace="page-b">
+        <h1>This is page 2</h1>
+      </div>
+    </div>
+
+    <!-- load barba (UMD version) -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- load gsap animation library (minified version) -->
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
+
+  </body>
+</html> 
