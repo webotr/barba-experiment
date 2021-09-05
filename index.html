@@ -32,12 +32,12 @@
           name: 'opacity-transition',
           leave(data) {
             return gsap.to(data.current.container, {
-              rotation: 27, x: 100, duration: 2, ease: "elastic"
+              rotation: 27, x: 100, duration: 1, ease: "elastic"
             });
           },
           enter(data) {
             return gsap.from(data.next.container, {
-              rotation: 360, x: 100, duration: 2, ease: "elastic"
+              rotation: 360, x: 100, duration: 1, ease: "elastic"
             });
           }
         }]

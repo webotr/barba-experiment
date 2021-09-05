@@ -10,8 +10,12 @@
 
 .pink {
     background-color:pink;
+    color:black;
+    padding: 1px 10px 20px 20px;
 }
 
 .blue {
     background-color: blue;
+    color:white;
+    padding: 1px 10px 20px 20px;
 }
